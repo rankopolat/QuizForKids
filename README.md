@@ -1,5 +1,7 @@
 # QuizForKids-AndroidApp
 
+Simple java program of a multiple choice quiz having 2 categories each category holding 4-5 questions each from a random pool of 10.
+
 ## Overview
 
 Welcome to the Kids Quiz App for Android! 
