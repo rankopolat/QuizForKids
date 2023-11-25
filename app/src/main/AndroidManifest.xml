@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/cclogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuizForKids"
+        tools:targetApi="31">
+        <activity
+            android:name=".resetPassword.resetPassword"
+            android:exported="false"
+            android:parentActivityName=".loginPage.LoginScreen"/>
+        <activity
+            android:name=".cartoonQuiz.cartoonQuiz"
+            android:exported="false"
+            android:parentActivityName=".quizSelector.QuizSelection" />
+        <activity
+            android:name=".previousQuestions.previousQuestions"
+            android:exported="false"
+            android:parentActivityName=".userPage.UserPage" />
+        <activity
+            android:name=".finishScreen.FinishScreen"
+            android:exported="false" />
+        <activity
+            android:name=".animalQuiz.animalQuiz"
+            android:exported="false"
+            android:parentActivityName=".quizSelector.QuizSelection" />
+        <activity
+            android:name=".quizSelector.QuizSelection"
+            android:exported="false"
+            android:parentActivityName=".userPage.UserPage" />
+        <activity
+            android:name=".userPage.UserPage"
+            android:exported="false" />
+        <activity
+            android:name=".registerPage.RegisterScreen"
+            android:exported="false"
+            android:parentActivityName=".frontPage.MainActivity" />
+        <activity
+            android:name=".loginPage.LoginScreen"
+            android:exported="false"
+            android:parentActivityName=".frontPage.MainActivity" />
+        <activity
+            android:name=".frontPage.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

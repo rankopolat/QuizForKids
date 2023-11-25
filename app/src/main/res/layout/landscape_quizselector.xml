@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kidspic"
+    tools:context=".quizSelector.QuizSelection">
+    <include
+        layout="@layout/toolbar_main"
+        android:id="@+id/toolbar" />
+    <Button
+        android:id="@+id/cartoonButton"
+        android:layout_width="334dp"
+        android:layout_height="63dp"
+        android:backgroundTint="#1AA3C7"
+        android:fontFamily="sans-serif-smallcaps"
+        android:foregroundTint="#FF5722"
+        android:text="Cartoons"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="100dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline42"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline43" />
+
+    <Button
+        android:id="@+id/animalButton"
+        android:layout_width="334dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="172dp"
+        android:backgroundTint="#FF5722"
+        android:fontFamily="sans-serif-smallcaps"
+        android:foregroundTint="#FF5722"
+        android:text="Animals"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="@+id/guideline42"
+        app:layout_constraintTop_toTopOf="@+id/guideline43"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.49794802" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.35766423" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
