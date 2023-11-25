@@ -12,7 +12,7 @@ These instructions will help you get a copy of the project up and running on you
 
 ### Prerequisites
 
-What things you need to install the software and how to install them. For example:
+Android Studio: 
 
 - [Android Studio](https://developer.android.com/studio)
 
