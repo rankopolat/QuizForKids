@@ -22,7 +22,7 @@ Android Studio:
 
 A step-by-step series of examples that tell you how to get a development environment running.
 
-1. Clone the repository: `[git clone https://github.com/yourusername/your-repo.git](https://github.com/rankopolat/QuizForKids-AndroidApp.git)`
+1. Clone the repository: `git clone https://github.com/rankopolat/QuizForKids-AndroidApp.git`
 2. Open the project in Android Studio.
 3. Build the project.
 
